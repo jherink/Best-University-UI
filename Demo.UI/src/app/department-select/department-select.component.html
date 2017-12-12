@@ -1,0 +1,6 @@
+<input type="text" placeholder="Choose Department" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
+<mat-autocomplete #auto="matAutocomplete">
+  <mat-option *ngFor="let department of departments" [value]="department.departmentID">
+    {{ department.name }}
+  </mat-option>
+</mat-autocomplete>
