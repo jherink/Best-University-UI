@@ -1,0 +1,47 @@
+.example-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+  }
+  
+  .example-header {
+    min-height: 64px;
+    padding: 8px 24px 0;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .mat-table {
+    overflow: auto;
+    max-height: 500px;
+  }
+  .loading-shade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 56px;
+    right: 0;
+    background: rgba(0, 0, 0, 0.15);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  .toolbar-container {
+    width: 100%;
+  }
+  
+  .toolbar-content {
+    width: 90%;
+    padding-left: 2%;
+    padding-top: 15px;
+    padding-bottom: 45px; /* for buttons */
+  }
