@@ -1,9 +1,0 @@
-{
-    "/api/*": {
-        "target": "http://bestuniversityapi.azurewebsites.net/",
-        "secure": false,
-        "changeOrigin": true,
-        "logLevel": "debug",
-        "pathRewrite": {"^/" : ""}
-    }
-}
